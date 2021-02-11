@@ -13,6 +13,9 @@ before_script:
 language: python
 python:
   - "3.6"
+branches:
+  only:
+    - master
 before_install: 
 - cd decide
 install: 
